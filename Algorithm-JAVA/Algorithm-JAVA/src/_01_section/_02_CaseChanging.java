@@ -2,17 +2,21 @@ package _01_section;
 
 import java.util.Scanner;
 
+// 문자열 입력시 소문자 > 대문자로, 대문자 > 소문자로 변환하여 출력하는 알고리즘
 public class _02_CaseChanging {
 
     public String solution(String str) {
+        String res = "";
         for (char x : str.toCharArray()) {
             if (Character.isLowerCase(x)) {
-                Character.toUpperCase(x);
+//                Character.toUpperCase(x);
+//                res += x;
+                res += Character.toUpperCase(x);
             } else {
-                Character.toLowerCase(x);
+                res += Character.toLowerCase(x);
             }
         }
-        return str;
+        return res;
     }
 
     public static void main(String[] args) {
