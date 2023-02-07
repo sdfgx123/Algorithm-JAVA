@@ -2,6 +2,7 @@ package _01_section;
 
 import java.util.Scanner;
 
+// 2. 문자열 입력시 대소문자를 바꿔주는 문제
 // 문자열 입력시 소문자 > 대문자로, 대문자 > 소문자로 변환하여 출력하는 알고리즘
 public class _02_CaseChanging {
 
