@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class _09_ExtractInt {
 
-    public String solution(String str) {
+    public int solution(String str) {
 
         String res = "";
 
