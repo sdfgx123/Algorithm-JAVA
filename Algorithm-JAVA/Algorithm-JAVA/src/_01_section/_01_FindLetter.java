@@ -27,6 +27,7 @@ public class _01_FindLetter {
 
         String str = sc.next();
         char key = sc.next().charAt(0);
+        // solution 메서드 호출해서 결과값 바로 출력
         System.out.println(main.solution(str, key));
     }
 }
