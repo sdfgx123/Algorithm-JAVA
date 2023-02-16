@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * 1번 문자 찾기 : 문자 입력시 알파벳 같이 입력 > 그 알파벳이 문장 앞에 몇개나 포함돼 있는지 계산
+ * 입력 예시 : aaabbc a / 출력 예시 : 3
  */
 public class _01_FindLetter {
 

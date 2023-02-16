@@ -11,8 +11,9 @@ public class _10_DistanceBetweenLetter {
 
     public int[] solution(String s, char t) {
         // res 배열 선언 : 출력 결과가 담길 arr
+        // res : int 타입의 배열 선언 > new로 메모리 할당 > int 배열인데, 배열의 길이는 s의 길이만큼으로 지정
         int [] res = new int[s.length()];
-        // arr에 담길 실질 값, 일부러 큰 수인 1000으로 초기화 함
+        // arr에 담길 실질 값, 즉 거리 > 일부러 큰 수인 1000으로 초기화 함
         int p = 1000;
         // 정방향 for문 부터 시작
         for (int i = 0; i < s.length(); i++) {
@@ -47,6 +48,7 @@ public class _10_DistanceBetweenLetter {
         _10_DistanceBetweenLetter main = new _10_DistanceBetweenLetter();
         Scanner sc = new Scanner(System.in);
 
+        // next() 메서드는 띄어쓰기를 기준으로 input 값을 구분함
         String s = sc.next();
         char t = sc.next().charAt(0);
 
