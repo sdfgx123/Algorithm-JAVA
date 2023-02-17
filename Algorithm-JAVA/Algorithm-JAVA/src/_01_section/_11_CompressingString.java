@@ -2,6 +2,11 @@ package _01_section;
 
 import java.util.Scanner;
 
+/**
+ * 11번 문자열 압축
+ * 알파벳 대문자 한 줄 받아서 > 중복되는 문자 있으면 뒤에 숫자 써주면서 출력
+ * 입력 예 KKHSSSSSSSE, 출력 예 K2HS7E
+ */
 public class _11_CompressingString {
 
     public String solution(String str) {
