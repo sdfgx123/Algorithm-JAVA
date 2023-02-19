@@ -24,10 +24,14 @@ public class _02_VisibleStudent {
      * 5
      */
     public int solution(int n, int[] arr) {
+        // cnt 변수 1로 초기화, 맨 앞은 무조건 카운트 되니까, 최댓값 담고 계속 비교할 max 변수 초기화
         int cnt = 1, max = arr[0];
         for (int i = 0; i < n; i++) {
+            // 만약 arr i번째가 max보다 크다면 > 즉, 뒷사람이 앞에서 가장 큰 사람보다 크다면
             if (arr[i] > max) {
+                // arr[i]를 최댓값 max로 다시 초기화
                 max = arr[i];
+                // 보이는 사람 한 명 추가 됐으니까 cnt++
                 cnt++;
             }
         }
@@ -41,6 +45,7 @@ public class _02_VisibleStudent {
 
         int n = sc.nextInt();
         int[] arr = new int[n];
+        // for문 돌려서 배열 채움
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
