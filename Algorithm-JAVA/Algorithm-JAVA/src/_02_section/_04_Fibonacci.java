@@ -13,6 +13,7 @@ public class _04_Fibonacci {
 
     public int[] solution(int n) {
 
+        // 0번, 1번 인덱스는 무조건 1로 초기화 해줘야 함
         int[] ans = new int[n];
         ans[0] = 1;
         ans[1] = 1;

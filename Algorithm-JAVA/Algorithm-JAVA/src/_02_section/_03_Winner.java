@@ -35,6 +35,7 @@ public class _03_Winner {
         _03_Winner main = new _03_Winner();
         Scanner sc = new Scanner(System.in);
 
+        // n 시행 횟수, a A가 내는 경우의 수, b B가 내는 경우의 수
         int n = sc.nextInt();
         int[] a = new int[n];
         int[] b = new int[n];
@@ -47,7 +48,7 @@ public class _03_Winner {
             b[i] = sc.nextInt();
         }
 
-        // 굳이 forEach 쓰는 이유 : 줄바꿈 해서 출력하려고
+        // 굳이 forEach 쓰는 이유 : 줄바꿈 해서 출력하려고, forEach 써서 string 반환값 char로 하나씩 출력
         for (char x : main.solution(n, a, b).toCharArray()) System.out.println(x);
     }
 }
