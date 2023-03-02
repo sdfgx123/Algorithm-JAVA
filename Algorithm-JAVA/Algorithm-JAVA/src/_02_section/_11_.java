@@ -18,6 +18,12 @@ public class _11_ {
 //        return 0;
 //    }
 
+    /**
+     * 이해가 안되는 부분
+     * i, j, k 다 1부터 시작인데
+     * 첫번째 if 에서 비교할 때,
+     * arr[1][1]==arr[1][1] 비교하는 거 아님?
+     */
     public int solution(int n, int[][] arr) {
         int answer = 0, max = Integer.MIN_VALUE;
         for (int i=1; i<=n; i++) {
@@ -26,6 +32,7 @@ public class _11_ {
                 for (int k=1; k<=5; k++) {
                     if (arr[i][k]==arr[j][k]) {
                         cnt++;
+                        // 중복하여 세는 것을 피하기 위해서
                         break;
                     }
                 }
