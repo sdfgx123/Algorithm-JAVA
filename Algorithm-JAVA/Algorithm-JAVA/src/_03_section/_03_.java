@@ -20,9 +20,12 @@ public class _03_ {
 
     public int solution(int n, int k, int[] arr) {
         int answer, sum = 0;
+        // i=0부터 i=k까지 sum 초기 값 세팅
         for (int i=0; i<k; i++) sum += arr[i];
         answer = sum;
         for (int i=k; i<n; i++) {
+            // sum 값을 계속 업데이트 해주면서 이전 값이랑 비교해서 최댓값 계속 업데이트
+            // i번째 arr 더하고, 첫번째 arr는 빼주는 로직
             sum += (arr[i]-arr[i-k]);
             answer = Math.max(answer, sum);
         }

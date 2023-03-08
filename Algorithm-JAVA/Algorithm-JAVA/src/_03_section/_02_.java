@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 /**
  * 공통원소 구하기
+ * 1) 오름차순으로 정렬해야 하고, 2) 두 array 간 비교 전 각 arr는 정렬 완료돼 있어야 함
  */
 public class _02_ {
 
