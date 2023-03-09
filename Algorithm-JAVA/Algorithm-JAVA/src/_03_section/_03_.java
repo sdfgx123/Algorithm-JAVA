@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * 3번 최대매출
- * 복잡도 O(n), k개만큼 묶어서 합이 가장 묶음의 값 출력
+ * 복잡도 O(n), k개만큼 묶어서 합이 가장 큰 묶음의 값 출력
  */
 public class _03_ {
 
