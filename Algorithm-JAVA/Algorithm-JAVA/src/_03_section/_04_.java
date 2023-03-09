@@ -3,7 +3,7 @@ package _03_section;
 import java.util.Scanner;
 
 /**
- * 4번 연속 부분수열
+ * 4번 : 연속 부분수열
  */
 public class _04_ {
 
