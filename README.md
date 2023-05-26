@@ -1,5 +1,4 @@
 # Algorithm-JAVA
-Repository for preparing java coding test
 
 ## 리포지토리의 목적
 이 리포지토리의 기본적인 목적은 다음과 같습니다.
