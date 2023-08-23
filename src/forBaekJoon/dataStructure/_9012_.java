@@ -8,7 +8,7 @@ import java.util.Stack;
 
 /**
  * 9012. 괄호
- * 스택 사용 | 괄호의 짝이 맞으면 YES, 짝이 맞지 않으면 NO
+ * 스택 사용, 괄호의 짝이 맞으면 YES, 짝이 맞지 않으면 NO
  */
 public class _9012_ {
 
