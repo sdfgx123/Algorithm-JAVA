@@ -6,6 +6,9 @@ import java.io.InputStreamReader;
 
 /**
  * 2748. 피보나치 수 2
+ * n이 주어졌을 때, n번째 피보나치 수를 구하는 프로그램 작성
+ * 입력 : n
+ * 출력 : n번째 피보나치 수 출력
  */
 public class _2748_ {
     public static void main(String[] args) throws IOException {
