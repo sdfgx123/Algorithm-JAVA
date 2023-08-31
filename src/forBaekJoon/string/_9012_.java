@@ -1,6 +1,5 @@
-package forBaekJoon.dataStructure;
+package forBaekJoon.string;
 
-import java.beans.beancontext.BeanContext;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
